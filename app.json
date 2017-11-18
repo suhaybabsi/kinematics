@@ -1,0 +1,8 @@
+{
+  "name": "Magic Starter : NodeJS",
+  "description": "Starter kit for building font-end graphical tools",
+  "repository": "https://github.com/suhaybabsi/magic-starter",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

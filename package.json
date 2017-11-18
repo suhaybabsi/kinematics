@@ -1,0 +1,53 @@
+{
+  "name": "magic-starter",
+  "version": "0.1.0",
+  "description": "Starter kit for building font-end graphical tools",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "dev": "node_modules/.bin/webpack-dev-server --hot --inline",
+    "build": "NODE_ENV=production node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "flux": "^3.1.3",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@tweenjs/tween.js": "^17.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react": "^1.0.0",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "paper": "^0.11.5",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhaybabsi/magic-starter"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "graphics",
+    "paper",
+    "react",
+    "kit",
+    "starter"
+  ],
+  "license": "MIT"
+}
