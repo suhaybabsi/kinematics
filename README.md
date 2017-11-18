@@ -1,6 +1,6 @@
 # Kinematics
 
-Workspace for visualizing basic machinery mechanisms.
+Workspace for visualizing basic machinery mechanisms. Try the app online [here](https://kinematics.herokuapp.com/app/).
 
 ### Running Locally (Development Mode)
 
