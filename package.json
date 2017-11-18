@@ -1,7 +1,7 @@
 {
-  "name": "magic-starter",
+  "name": "kinematics",
   "version": "0.1.0",
-  "description": "Starter kit for building font-end graphical tools",
+  "description": "Workspace for visualizing basic machinery mechanisms",
   "engines": {
     "node": "6.11.1"
   },
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suhaybabsi/magic-starter"
+    "url": "https://github.com/suhaybabsi/kinematics"
   },
   "keywords": [
     "node",
@@ -46,8 +46,11 @@
     "graphics",
     "paper",
     "react",
-    "kit",
-    "starter"
+    "mechanisms",
+    "kinematics",
+    "mechanics",
+    "velocity",
+    "acceleration"
   ],
   "license": "MIT"
 }

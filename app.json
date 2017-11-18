@@ -1,6 +1,6 @@
 {
-  "name": "Magic Starter : NodeJS",
-  "description": "Starter kit for building font-end graphical tools",
+  "name": "Kinematics : NodeJS",
+  "description": "Workspace for visualizing basic machinery mechanisms",
   "repository": "https://github.com/suhaybabsi/magic-starter",
   "logo": "",
   "keywords": ["node", "express", "heroku"],
