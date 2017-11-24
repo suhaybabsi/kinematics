@@ -17,8 +17,24 @@ body {
 
 #app {
 
-    position: absolute;
     display: block;
+    position: fixed;
+
+    bottom: 10px;
+    left: 10px;
+    width: 220px;
+    height: auto;
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    background: white;
+    box-shadow: 0 0 15px rgba(100, 100, 100, 0.3);
+    border-radius: 5px;
 
     z-index: 2;
+}
+
+.item {
+    margin-bottom: 5px;    
 }

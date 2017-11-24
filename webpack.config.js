@@ -7,6 +7,7 @@ module.exports = {
     entry: "./source/Main.js",
     module: {
         rules: [
+            { test: /\.css$/, use: ['style-loader', 'css-loader'] },
             {
                 test: /\.js?$/,
                 exclude: [
@@ -16,7 +17,12 @@ module.exports = {
                 loader: 'babel-loader',
                 options: {
                     presets: ['react', 'env', 'stage-0'],
-                    plugins: ['react-html-attrs', 'transform-decorators-legacy', 'transform-class-properties']
+                    plugins: [
+                        'react-html-attrs',
+                        'transform-decorators-legacy',
+                        'transform-class-properties',
+                        ["import", { "libraryName": "antd", "style": "css" }]
+                    ]
                 }
             }
         ]
@@ -29,7 +35,7 @@ module.exports = {
     plugins: debug ? [] : [
         new webpack.DefinePlugin({
             'process.env': {
-              NODE_ENV: JSON.stringify('production')
+                NODE_ENV: JSON.stringify('production')
             }
         }),
         new webpack.optimize.UglifyJsPlugin()
